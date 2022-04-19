@@ -67,6 +67,21 @@ python main.py --data_test MyImage --scale 3 --model FDIWNx3 --n_feats 64 --pre_
 python main.py --data_test MyImage --scale 4 --model FDIWNx4 --n_feats 64 --pre_train /home/ggw/wenjieli/RCAN/RCAN_TestCode/model/model_best.pt --test_only --save_results --chop --save FDIWNx4 --testpath ../LR/LRBI --testset Set5
 ```
 
+## Performance
+
+Our MSRN is trained on RGB, but as in previous work, we only reported PSNR/SSIM on the Y channel.
+
+We use  the file  ''Test/Evaluate_PSNR_SSIM'' for test.
+
+Model|Scale|Set5|Set14|B100|Urban100|Manga109
+--|:--:|:--:|:--:|:--:|:--:|:--:
+old (paper)       |x2|38.07/0.9608|33.75/0.9201|32.23/0.9003|32.40/0.9305|null/null
+FDIWN              |x2|38.07/0.9608|33.75/0.9201|32.23/0.9003|32.40/0.9305|38.85/0.9774
+old (paper)       |x3|34.52/0.9281|30.42/0.8438|29.14/0.8065|28.36/0.8567|null/null
+FDIWN              |x3|34.48/0.9276|30.40/0.8436|29.13/0.8061|28.31/0.8560|33.77/0.9456
+old (paper)       |x4|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.7919|null/null
+FDIWN              |x4|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.7919|30.63/0.9098
+
 ## Citation
 
 If you find FDIWN useful in your research, please consider citing:
