@@ -69,9 +69,9 @@ python main.py --data_test MyImage --scale 4 --model FDIWNx4 --n_feats 64 --pre_
 
 ## Performance
 
-Our MSRN is trained on RGB, but as in previous work, we only reported PSNR/SSIM on the Y channel.
+Our FDIWN is trained on RGB, but as in previous work, we only reported PSNR/SSIM on the Y channel.
 
-We use  the file  ''Test/Evaluate_PSNR_SSIM'' for test.
+We use  the file  ''...FDIWN_TestCode/Evaluate_PSNR_SSIM'' for test.
 
 Model|Scale|Set5|Set14|B100|Urban100|Manga109
 --|:--:|:--:|:--:|:--:|:--:|:--:
