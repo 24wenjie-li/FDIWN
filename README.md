@@ -37,8 +37,20 @@ The following PSNR/SSIMs are evaluated on Matlab R2017a and the code can be refe
 
 
 ## Training
+Dont't use --ext sep argument on your first running.
 
-
-
+You can skip the decoding part and use saved binaries with --ext sep argument in second time.
+ 
+```
+  cd Train/
+  # FDIWN x2  LR: 48 * 48  HR: 96 * 96
+  python main.py --model FDIWNx2 --save FDIWNx2 --scale 2 --n_feats 64  --reset --chop --save_results --patch_size 96 --ext sep
+  
+  # FDIWN x3  LR: 48 * 48  HR: 144 * 144
+  python main.py --model FDIWNx3 --save FDIWNx3 --scale 3 --n_feats 64  --reset --chop --save_results --patch_size 144 --ext sep
+  
+  # FDIWN x4  LR: 48 * 48  HR: 192 * 192
+  python main.py --model FDIWNx4 --save FDIWNx4 --scale 4 --n_feats 64  --reset --chop --save_results --patch_size 192 --ext sep
+```
 
 ## Testing
