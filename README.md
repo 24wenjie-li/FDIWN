@@ -34,3 +34,11 @@ All pretrained model can be found in <a href="https://github.com/24wenjie-li/FDI
 
 The following PSNR/SSIMs are evaluated on Matlab R2017a and the code can be referred to [Evaluate_PSNR_SSIM.m]
 (https://github.com/24wenjie-li/FDIWN/blob/main/FDIWN_TestCode/Evaluate_PSNR_SSIM.m).
+
+
+## Training
+
+
+
+
+## Testing
