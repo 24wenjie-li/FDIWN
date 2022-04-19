@@ -60,8 +60,7 @@ You can skip the decoding part and use saved binaries with --ext sep argument in
 
 ## Citation
 
-If you find IMDN useful in your research, please consider citing:
-
+If you find FDIWN useful in your research, please consider citing:
 ```
 @article{gao2021feature,
   title={Feature Distillation Interaction Weighting Network for Lightweight Image Super-Resolution},
