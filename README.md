@@ -1,7 +1,7 @@
 # FDIWN-Pytorch
 This repository is an official PyTorch implementation of our paper "Feature Distillation Interaction Weighting Network for Lightweight Image Super-Resolution". (AAAI 2022)
 
-## Paper can be download from <a href="https://arxiv.org/abs/2112.08655">FDIWN</a>. 
+Paper can be download from <a href="https://arxiv.org/abs/2112.08655">FDIWN</a>. 
 
 All test datasets (Preprocessed HR images) can be downloaded from <a href="https://www.jianguoyun.com/p/DcrVSz0Q19ySBxiTs4oB">here</a>.
 
