@@ -3,6 +3,10 @@ This repository is an official PyTorch implementation of our paper "Feature Dist
 
 ## Paper can be download from <a href="https://arxiv.org/abs/2112.08655">FDIWN</a>. 
 
+All test datasets (Preprocessed HR images) can be downloaded from <a href="https://www.jianguoyun.com/p/DcrVSz0Q19ySBxiTs4oB">here</a>.
+
+All original test datasets (HR images) can be downloaded from <a href="https://www.jianguoyun.com/p/DaSU0L4Q19ySBxi_qJAB">here</a>.
+
 
 ## Prerequisites:
 1. Python 3.6
@@ -21,3 +25,7 @@ We used DIV2K dataset to train our model. Please download it from <a href="https
 Extract the file and put it into the Train/dataset.
 
 Only DIV2K is used as the training dataset, and Flickr2K is not used as the training dataset !!!
+
+
+## Results images
+All our SR images can be downloaded from <a href="">here</a>.[百度网盘]
