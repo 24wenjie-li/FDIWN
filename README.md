@@ -54,3 +54,18 @@ You can skip the decoding part and use saved binaries with --ext sep argument in
 ```
 
 ## Testing
+
+
+
+
+## Citation
+
+If you find IMDN useful in your research, please consider citing:
+
+```
+@article{gao2021feature,
+  title={Feature Distillation Interaction Weighting Network for Lightweight Image Super-Resolution},
+  author={Gao, Guangwei and Li, Wenjie and Li, Juncheng and Wu, Fei and Lu, Huimin and Yu, Yi},
+  journal={arXiv preprint arXiv:2112.08655},
+  year={2021}
+}
