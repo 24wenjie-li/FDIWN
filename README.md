@@ -37,7 +37,7 @@ The following PSNR/SSIMs are evaluated on Matlab R2017a and the code can be refe
 
 
 ## Training
-Dont't use --ext sep argument on your first running.
+Don't use --ext sep argument on your first running.
 
 You can skip the decoding part and use saved binaries with --ext sep argument in second time.
  
