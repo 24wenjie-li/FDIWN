@@ -30,4 +30,5 @@ Only DIV2K is used as the training dataset, and Flickr2K is not used as the trai
 ## Results images
 All our SR images can be downloaded from <a href="">here</a>.[百度网盘]
 
-The following PSNR/SSIMs are evaluated on Matlab R2017a and the code can be referred to [Evaluate_PSNR_SSIM.m](https://github.com/yulunzhang/RCAN/blob/master/RCAN_TestCode/Evaluate_PSNR_SSIM.m).
+The following PSNR/SSIMs are evaluated on Matlab R2017a and the code can be referred to [Evaluate_PSNR_SSIM.m]
+(https://github.com/24wenjie-li/FDIWN/blob/main/FDIWN_TestCode/Evaluate_PSNR_SSIM.m).
