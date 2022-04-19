@@ -28,7 +28,7 @@ Only DIV2K is used as the training dataset, and Flickr2K is not used as the trai
 
 
 ## Results
-All our SR images can be downloaded from <a href="https://pan.baidu.com/s/1BfATKktSv9jk3LlWPRQRZg">here</a>.[百度网盘][提取码：0824]
+All our SR images can be downloaded from <a href="https://pan.baidu.com/s/1BfATKktSv9jk3LlWPRQRZg">here</a>.[百度网盘][提取码:0824]
 
 All pretrained model can be found in <a href="https://github.com/24wenjie-li/FDIWN/tree/main/FDIWN_TrainCode/experiment">AAAI2022_FDIWN_premodel</a>.
 
