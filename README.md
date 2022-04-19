@@ -54,9 +54,18 @@ You can skip the decoding part and use saved binaries with --ext sep argument in
 ```
 
 ## Testing
+Using pre-trained model for training, all test datasets must be pretreatment by  ''FDIWN_TestCode/Prepare_TestData_HR_LR.m" and all pre-trained model should be put into "FDIWN_TestCode/model/".
 
+```
+#FDIWN x2
+python main.py --data_test MyImage --scale 2 --model FDIWNx2 --n_feats 64 --pre_train /home/ggw/wenjieli/RCAN/RCAN_TestCode/model/model_best.pt --test_only --save_results --chop --save FDIWNx2 --testpath ../LR/LRBI --testset Set5
 
+#FDIWN x3
+python main.py --data_test MyImage --scale 3 --model FDIWNx3 --n_feats 64 --pre_train /home/ggw/wenjieli/RCAN/RCAN_TestCode/model/model_best.pt --test_only --save_results --chop --save FDIWNx3 --testpath ../LR/LRBI --testset Set5
 
+#FDIWN x4
+python main.py --data_test MyImage --scale 4 --model FDIWNx4 --n_feats 64 --pre_train /home/ggw/wenjieli/RCAN/RCAN_TestCode/model/model_best.pt --test_only --save_results --chop --save FDIWNx4 --testpath ../LR/LRBI --testset Set5
+```
 
 ## Citation
 
