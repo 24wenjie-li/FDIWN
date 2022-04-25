@@ -85,8 +85,8 @@ FDIWN-M        |x4|454K|19.6G|32.17/0.8941|28.55/0.7806|27.58/0.7364|26.02/0.784
 FDIWN          |x4|664K|28.4G|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.7919|30.63/0.9098
 
 <p align="center">
-<img src="images/Set14x2.png" width="400px" height="300px"/>
-<img src="images/urban100x2.png" width="400px" height="300px"/>
+<img src="imgs/Set14x2.png" width="400px" height="300px"/>
+<img src="imgs/urban100x2.png" width="400px" height="300px"/>
 </p>
 
 ## Citation
