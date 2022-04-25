@@ -93,8 +93,8 @@ FDIWN          |x4|664K|28.4G|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.791
 FDIWN gains a better trade-off between model size, performance, inference speed, and multi-adds.
 
 <p align="center">
-<img src="imgs/Set14x2.png" width="450px" height="320px"/>
-<img src="imgs/urban100x2.png" width="450px" height="320px"/>
+<img src="imgs/Set14x2.png" width="400px" height="300px"/>
+<img src="imgs/urban100x2.png" width="400px" height="300px"/>
 </p>
 
 ## Citation
