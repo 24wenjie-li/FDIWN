@@ -30,6 +30,8 @@ Only DIV2K is used as the training dataset, and Flickr2K is not used as the trai
 ## Results
 All our SR images can be downloaded from <a href="https://pan.baidu.com/s/1BfATKktSv9jk3LlWPRQRZg">here</a>.[百度网盘][提取码:0824]
 
+All our Supplementary materials can be downloaded from <a href="https://pan.baidu.com/s/1XwdEjCgiPfHTumGU4aWKiQ">here</a>.[百度网盘][提取码:9168]
+
 All pretrained model can be found in <a href="https://github.com/24wenjie-li/FDIWN/tree/main/FDIWN_TrainCode/experiment">AAAI2022_FDIWN_premodel</a>.
 
 The following PSNR/SSIMs are evaluated on Matlab R2017a and the code can be referred to [Evaluate_PSNR_SSIM.m]
@@ -73,14 +75,14 @@ Our FDIWN is trained on RGB, but as in previous work, we only reported PSNR/SSIM
 
 We use  the file  ''...FDIWN_TestCode/Evaluate_PSNR_SSIM'' for test.
 
-Model|Scale|Set5|Set14|B100|Urban100|Manga109
---|:--:|:--:|:--:|:--:|:--:|:--:
-old (paper)       |x2|38.07/0.9608|33.75/0.9201|32.23/0.9003|32.40/0.9305|null/null
-FDIWN              |x2|38.07/0.9608|33.75/0.9201|32.23/0.9003|32.40/0.9305|38.85/0.9774
-old (paper)       |x3|34.52/0.9281|30.42/0.8438|29.14/0.8065|28.36/0.8567|null/null
-FDIWN              |x3|34.52/0.9281|30.42/0.8438|29.14/0.8065|28.36/0.8567|33.77/0.9456
-old (paper)       |x4|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.7919|null/null
-FDIWN              |x4|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.7919|30.63/0.9098
+Model|Scale|Params|Set5|Set14|B100|Urban100|Manga109
+--|:--:|:--:|:--:|:--:|:--:|:--:|:--:
+old (paper)       |x2|629K|38.07/0.9608|33.75/0.9201|32.23/0.9003|32.40/0.9305|null/null
+FDIWN              |x2|629K|38.07/0.9608|33.75/0.9201|32.23/0.9003|32.40/0.9305|38.85/0.9774
+old (paper)       |x3|645K|34.52/0.9281|30.42/0.8438|29.14/0.8065|28.36/0.8567|null/null
+FDIWN              |x3|645K|34.52/0.9281|30.42/0.8438|29.14/0.8065|28.36/0.8567|33.77/0.9456
+old (paper)       |x4|664K|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.7919|null/null
+FDIWN              |x4|664K|32.23/0.8955|28.66/0.7829|27.62/0.7380|26.28/0.7919|30.63/0.9098
 
 ## Citation
 
