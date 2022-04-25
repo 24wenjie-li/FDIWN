@@ -69,7 +69,7 @@ python main.py --data_test MyImage --scale 3 --model FDIWNx3 --n_feats 64 --pre_
 python main.py --data_test MyImage --scale 4 --model FDIWNx4 --n_feats 64 --pre_train /home/ggw/wenjieli/RCAN/RCAN_TestCode/model/model_best.pt --test_only --save_results --chop --save FDIWNx4 --testpath ../LR/LRBI --testset Set5
 ```
 
-## Performance
+# Performance
 
 Our FDIWN is trained on RGB, but as in previous work, we only reported PSNR/SSIM on the Y channel.
 
