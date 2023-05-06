@@ -97,9 +97,12 @@ FDIWN gains a better trade-off between model size, performance, inference speed,
 
 If you find FDIWN useful in your research, please consider citing:
 ```
-@article{gao2021feature,
-  title={Feature Distillation Interaction Weighting Network for Lightweight Image Super-Resolution},
+@inproceedings{gao2022feature,
+  title={Feature distillation interaction weighting network for lightweight image super-resolution},
   author={Gao, Guangwei and Li, Wenjie and Li, Juncheng and Wu, Fei and Lu, Huimin and Yu, Yi},
-  journal={arXiv preprint arXiv:2112.08655},
-  year={2021}
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={36},
+  number={1},
+  pages={661--669},
+  year={2022}
 }
